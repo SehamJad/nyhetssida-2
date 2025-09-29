@@ -54,5 +54,16 @@ article{
     margin: 0;
     border-radius: 8px;
     background: #fff;
-    
+
+}
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+h1, h2, p {
+  margin: 0 0 8px 0;
 }
