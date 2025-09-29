@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;                /* 1 kolumn */
+    grid-template-rows: auto auto 1fr auto ;  /* header , nav , main , footer */
+    min-height: 100vh;                        /*fyll hela höjden*/
+    gap:16px;                                 /*avstånd mellan sektioner */
+    margin: 0 ;                               /* ta bort stnadard marginaler */
+    font-family: sans-serif;
+    padding: 16px;
+
+}
+header {
+    background: #f3f3f3;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* ===== Steg 3 – Meny med Flexbox =====
+   Länkarna ligger i rad och centrerade. */
+nav{
+    display: flesx;                            /*flexbox gör menyn i rad*/
+    justify-content: center;
+    gap:16px;
+    padding: 12px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+
+}
